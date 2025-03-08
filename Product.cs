@@ -10,7 +10,7 @@ public class Product
 	public double Product_Price { get; set; }
 	public int Product_Quantity { get; set; }
 
-	private static String ID_str = File.ReadAllText("Product_ID.txt");
+	/*private static String ID_str = File.ReadAllText("Product_ID.txt");
 	public static string[] ID_Product { set; get; }
 
     private static String NAME_str = File.ReadAllText("Product_NAME.txt");
@@ -18,7 +18,7 @@ public class Product
     private static String PRICE_str = File.ReadAllText("Product_PRICE.txt");
     public static string[] PRICE_Product { set; get; }
     private static String QUANTITY_str = File.ReadAllText("QUANTITY_ID.txt");
-    public static string[] QUANTITY_Product { set; get; }
+    public static string[] QUANTITY_Product { set; get; }*/
 
     public static List<Product> products = new List<Product>();
     public Product(int product_id , string product_name, double product_price,int product_quntity)
@@ -102,6 +102,7 @@ public class Product
         }
 
     }
+    /*
     public static void assign()
 	{
         
@@ -126,7 +127,7 @@ public class Product
         file_product_name.Close();
         file_product_price.Close();
         file_product_Quantity.Close();
-    }
+    }*/
 
     public static void Print()
 	{

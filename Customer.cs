@@ -12,7 +12,7 @@ public class Customer:Company,Person
     public string phone_person { get; set; }
     public bool is_company { get; set; }
 
-    private static String id_company_str = File.ReadAllText("Customers_id_company.txt");
+    /*private static String id_company_str = File.ReadAllText("Customers_id_company.txt");
     public static String[] Customers_id_company { get; set; }
 
     private static String phone_company_str = File.ReadAllText("Customers_phone_company.txt");
@@ -34,7 +34,7 @@ public class Customer:Company,Person
     public static String[] Customers_person_name { get; set; }
 
     private static String person_address_str = File.ReadAllText("Customers_address_person.txt");
-    public static String[] Customers_person_address { get; set; }
+    public static String[] Customers_person_address { get; set; }*/
         
     public Customer(bool is_company,string name ,string address,int id , string phone)
 	{
@@ -77,7 +77,7 @@ public class Customer:Company,Person
                 "\nphone: " + this.phone_person);
         }
     }
-
+    /*
     public static void assign()
     {
        
@@ -110,5 +110,5 @@ public class Customer:Company,Person
         file_person_id.Close();
         file_person_name.Close();
         file_person_phone.Close();
-    }
+    }*/
 }

@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Customers.create();
+            /*Customers.create();
             Product.create();
             Customers.assign();
-            Product.assign();
+            Product.assign();*/
             Customer customer= new Customer(true,"test","test",0,"test");
             Order order=new Order(0,1);
             Transaction transaction= new Transaction(0);

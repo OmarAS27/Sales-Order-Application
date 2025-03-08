@@ -38,7 +38,7 @@ namespace Sales_Order_Application
                 customers_person.Add(customer);
 			}
 
-			Customer.assign();
+			//Customer.assign();
 
             
 
@@ -46,14 +46,14 @@ namespace Sales_Order_Application
 
         public static void EditCustomer(bool is_company, string name, string address, int id, string phone)
 		{
-            File.WriteAllText("Customers_id_person.txt","");
+          /*  File.WriteAllText("Customers_id_person.txt","");
             File.WriteAllText("Customers_phone_person.txt", "");
             File.WriteAllText("Customers_name_person.txt", "");
             File.WriteAllText("Customers_address_person.txt","");
             File.WriteAllText("Customers_id_company.txt", "");
             File.WriteAllText("Customers_phone_company.txt", "");
             File.WriteAllText("Customers_name_company.txt", "");
-            File.WriteAllText("Customers_address_company.txt","");
+            File.WriteAllText("Customers_address_company.txt","");*/
 
             Customer customer = new Customer(is_company, name, address, id, phone);
 
@@ -111,20 +111,20 @@ namespace Sales_Order_Application
 
             }
 
-            Customer.assign();
+            //Customer.assign();
         }
 
 
         public static void DeleteCustomer(bool is_company, int id)
         {
-            File.WriteAllText("Customers_id_person.txt", "");
+           /* File.WriteAllText("Customers_id_person.txt", "");
             File.WriteAllText("Customers_phone_person.txt", "");
             File.WriteAllText("Customers_name_person.txt", "");
             File.WriteAllText("Customers_address_person.txt", "");
             File.WriteAllText("Customers_id_company.txt", "");
             File.WriteAllText("Customers_phone_company.txt", "");
             File.WriteAllText("Customers_name_company.txt", "");
-            File.WriteAllText("Customers_address_company.txt", "");
+            File.WriteAllText("Customers_address_company.txt", "");*/
 
 
             if (is_company)
@@ -178,7 +178,7 @@ namespace Sales_Order_Application
 
             }
 
-            Customer.assign();
+            //Customer.assign();
         }
 
         public static Customer Company_Search(int company_Id)
@@ -191,6 +191,8 @@ namespace Sales_Order_Application
             else
             {
                 Console.WriteLine("Not Found");
+                Thread.Sleep(5000);
+                Program.Continue(true);
                 return null;
 
             }
@@ -206,6 +208,8 @@ namespace Sales_Order_Application
             else
             {
                 Console.WriteLine("Not Found");
+                Thread.Sleep(5000);
+                Program.Continue(true);
                 return null;
             }
         }

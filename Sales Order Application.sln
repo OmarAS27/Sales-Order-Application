@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales Order Application", "Sales Order Application.csproj", "{CF14FD81-A235-4191-BE9B-97211CD9E8B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99B7B860-C64F-4783-A6BE-9B9867BC6927}"
+	ProjectSection(SolutionItems) = preProject
+		Cash.cs = Cash.cs
+		Check.cs = Check.cs
+		Class1.cs = Class1.cs
+		Class2.cs = Class2.cs
+		Class3.cs = Class3.cs
+		Company.cs = Company.cs
+		Customer.cs = Customer.cs
+		Customers.cs = Customers.cs
+		Order.cs = Order.cs
+		OrderItem.cs = OrderItem.cs
+		Payment.cs = Payment.cs
+		Product.cs = Product.cs
+		Stock.cs = Stock.cs
+		Transaction.cs = Transaction.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF14FD81-A235-4191-BE9B-97211CD9E8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF14FD81-A235-4191-BE9B-97211CD9E8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF14FD81-A235-4191-BE9B-97211CD9E8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF14FD81-A235-4191-BE9B-97211CD9E8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B861531-9231-4087-AF0E-BBB2E68A6396}
+	EndGlobalSection
+EndGlobal
